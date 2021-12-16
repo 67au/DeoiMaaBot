@@ -1,0 +1,4 @@
+httpx==0.21.1
+httpx-socks==0.7.2
+Pyrogram==1.2.20
+TgCrypto==1.2.2
