@@ -1,6 +1,6 @@
-# DoeiMaaBot
+# DeoiMaaBot
 
-一个用于 `Doei Maa -> 兑码` 的 Telegram Bot
+一个用于 `Deoi Maa -> 兑码` 的 Telegram Bot
 
 ## 环境要求
 
@@ -51,12 +51,12 @@ docker buildx build . -t doeimaabot:latest --load
 ### 运行容器
 
 ```
-docker run -d --name=doeimaa \
+docker run -d --name=deoimaa \
     -e API_ID=<api_id> \
     -e API_HASH=<api_hash> \
     -e BOT_TOKEN=<bot_token> \
     -e ADMIN=<admin> \
-    doeimaabot:latest
+    deoimaabot:latest
 ```
 
 ## 注意事项
